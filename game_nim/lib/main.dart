@@ -122,9 +122,9 @@ class _NIMState extends State<NIM> {
           ),
           Container(
             color: Colors.blue, 
+            padding: EdgeInsets.all(8.0),
             child: Row(
               mainAxisAlignment: MainAxisAlignment.center, 
-              padding: EdgeInsets.all(9.0),
               children: <Widget>[
                 Text(
                   'Bruno Pequeno',
@@ -165,9 +165,9 @@ class _NIMState extends State<NIM> {
                 mainAxisSize: MainAxisSize.min,
                 children: <Widget>[
                   Text('Número restante de peças: $pecasRestantes'),
-                   if (!jogadorComeca)
+                  if (!jogadorComeca)
                     Text('O computador começou'),
-                  SizedBox(height: 16.0),
+                  SizedBox(height: 14.0),
                   Text('Quantas peças deseja retirar?'),
                   Text(''),
                   Wrap(
